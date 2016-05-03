@@ -1,0 +1,22 @@
+
+https://github.com/mattermost/platform/blob/master/web/web.go
+http://beego.me/docs/mvc/model/models.md
+
+react ----
+https://blog.pusher.com/making-reactjs-realtime-with-websockets/
+https://camjackson.net/post/9-things-every-reactjs-beginner-should-know#tooling
+
+golang webarch ----
+https://github.com/ungerik/go-start
+http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/
+https://github.com/sourcegraph/thesrc
+https://github.com/larryprice/refermadness
+https://github.com/emadera52/sixty/blob/master/controllers/home.go
+
+JWT---------
+https://github.com/auth0/go-jwt-middleware
+https://github.com/dgrijalva/jwt-go
+http://blog.brainattica.com/restful-json-api-jwt-go/
+https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/
+
+
