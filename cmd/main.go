@@ -10,7 +10,4 @@ func main() {
 	maple.StartServer(config)
 
 
-	//user := accounts.User{ Name: "slene", Password: "hello" }
-	//accounts.CreateUser(&user)
-
 }

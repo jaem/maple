@@ -7,7 +7,6 @@ import (
 	"github.com/astaxie/beego/orm"
 	"github.com/tylerb/graceful"
 
-	"github.com/jaem/maple/routers"
 	"github.com/jaem/nimble"
 )
 
@@ -22,7 +21,7 @@ func InitDatabase(c *config) {
 
 func StartServer(c *config) {
 	web := nimble.Default()
-	web.Use(routers.InitRoutes())
+	web.Use(initRoutes(web))
 
 	if c.DebugMode {
 		web.Run(c.Server_Port) // Development

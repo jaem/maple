@@ -19,7 +19,7 @@ type config struct {
 
 func NewConfig() *config {
 	return &config {
-		Server_Port: ":3000",
+		Server_Port: ":3001",
 		Server_Timeout: 10 * time.Second,
 
 		Db_MaxIdle: 30,
